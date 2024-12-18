@@ -4,7 +4,8 @@ import { colors } from "./src/util/Colors";
 export function main() {
 
     let opcao, id, preco, anoLancamento: number;
-    let nome, genero, editora: string;
+    let nome, genero, editora, estado: string;
+    const tipoLivro = ['Livro Fisico', 'Livro Digital'];
 
     while (true) {
 
