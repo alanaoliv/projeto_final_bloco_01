@@ -4,7 +4,7 @@ export class LivroFisico extends Livro{
 
     private _estado: string;
 
-    constructor(id: number, nome: string, genero: string, anoLancamento: number, editora: string, preco: number, tipo: number, estado: string) {
+    constructor(id: number, nome: string, anoLancamento: number, genero: string, editora: string, preco: number, tipo: number, estado: string) {
         super(id, nome, genero, anoLancamento, editora, preco, tipo);
 		this._estado = estado;
 	}

@@ -4,7 +4,7 @@ export class LivroDigital extends Livro{
 
     private _formato: string;
 
-    constructor(id: number, nome: string, genero: string, anoLancamento: number, editora: string, preco: number, tipo: number, formato: string) {
+    constructor(id: number, nome: string, anoLancamento: number, genero: string, editora: string, preco: number, tipo: number, formato: string) {
         super(id, nome, genero, anoLancamento, editora, preco, tipo);
         this._formato = formato;
     }
